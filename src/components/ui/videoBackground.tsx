@@ -3,7 +3,7 @@ import React from 'react';
 
 const VideoBackground: React.FC = () => {
   return (
-    <div className="absolute h-full w-full -z-10 overflow-hidden">
+    <div className="absolute h-full w-full -z-10">
       <video
         autoPlay
         muted

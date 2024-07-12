@@ -17,7 +17,8 @@ module.exports = {
         primaryOrange : '#fd7e14',
         primaryBlue : '#082470',
         secondaryOrange : '#fa9441',
-        secondaryBlue : '#234cba'
+        secondaryBlue : '#234cba',
+        primaryGray : '#e2e2e2'
       },
       fontFamily : {
         roboto :  ['Roboto', 'sans-serif'],

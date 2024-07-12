@@ -1,16 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://launchxlabs.ai/static/img/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="og:title" content="VectorX | World's most secured vector database for RAG based Gen AI applications">
-    <meta name="og:description" content="VectorX is an encrypted vector database designed for maximum security and speed">
-    <meta name="og:image" content="./public/vectorX.svg">
-    <title>VectorX | World's most secured vector database for RAG based Gen AI applications</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://launchxlabs.ai/static/img/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="og:title" content="VectorX | World's most secured vector database for RAG based Gen AI applications">
+  <meta name="og:description" content="VectorX is an encrypted vector database designed for maximum security and speed">
+  <meta name="og:image" content="./public/vectorX.svg">
+  <title>VectorX | World's most secured vector database for RAG based Gen AI applications</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    document.querySelector('input').addEventListener('focus', (event) => {
+      event.preventDefault();
+      // Manually scroll to the desired position
+      window.scrollTo({
+        top: event.target.offsetTop - 100, // Adjust based on desired position
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
 </html>
