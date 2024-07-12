@@ -1,7 +1,6 @@
-/* eslint-disable react/jsx-no-target-blank */
 import { Container } from '@mui/material'
 import React from 'react'
-import LaunchX from '../../../public/LaunchX.svg';
+
 function Footer() {
   return (
     <footer className="bg-white">

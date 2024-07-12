@@ -3,7 +3,6 @@ import React, { useState } from "react";
 // import { BackgroundBeams } from "./components/ui/background-beams";
 // import { Button } from "./components/ui/moving-border";
 import VideoBackground from "./components/ui/videoBackground";
-import axios from 'axios'
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/ui/Footer";

@@ -1,6 +1,5 @@
 import { cn } from '../../utils/cn'
 import { AnimatePresence, motion } from "framer-motion";
-import { Link } from "@mui/material"
 import { useState } from "react";
 
 export const HoverEffect = ({
@@ -14,7 +13,7 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div

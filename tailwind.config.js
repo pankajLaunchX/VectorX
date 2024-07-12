@@ -1,11 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require("tailwindcss/defaultTheme");
+// const defaultTheme = require("tailwindcss/defaultTheme");
+// import defaultTheme  from 'tailwindcss/defaultTheme'
 
-const colors = require("tailwindcss/colors");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+// const colors = require("tailwindcss/colors");
+import {  flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
